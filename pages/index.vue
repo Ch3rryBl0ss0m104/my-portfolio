@@ -1,3 +1,5 @@
+<!-- Janke Rall u24571238 -->
+
 <script setup>
     const { data: weather } = await useFetch ('https://api.openweathermap.org/data/2.5/weather?q=Pretoria&appid=8ec0c06671e90a0743d3f7408f509947')
     const { data: dog } = await useFetch('https://dog.ceo/api/breeds/image/random')
